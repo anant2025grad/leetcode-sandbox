@@ -7,14 +7,14 @@ def twoSum(nums, target):
     :rtype: List[int]
     """
 
-    seen = {}
+    seen1 = {}
 
     for i, num in enumerate(nums):
         complement = target - num
 
-        if complement in seen:
-            return [seen[complement], i]
+        if complement in seen1:
+            return [seen1[complement], i]
 
-        seen[num] = i
+        seen1[num] = i
 
 print(twoSum(nums, target))
