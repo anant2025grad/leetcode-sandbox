@@ -181,7 +181,6 @@ end
 
 book1 = Book.new("Harry Potter", "JK Rowling")
 
-=end
 
 #getter + setter
 
@@ -202,6 +201,8 @@ class Book
 	@title=title
 
 end
+
+=end
 
 
 
