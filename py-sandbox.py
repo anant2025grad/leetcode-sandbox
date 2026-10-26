@@ -27,6 +27,20 @@ print(tshirts)
 
 '''
 
+class sophomore:
+    
+    minAge = 19
+    maxAge = 20
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+
+stud1 = sophomore("Anant", 19)
+print(stud1.name, stud1.age, stud1.minAge, stud1.maxAge, sophomore.minAge)
+
+
 
 
 
